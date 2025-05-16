@@ -1,0 +1,29 @@
+# Arquivos e pastas sensíveis
+.env
+.env.*
+!.env.example
+
+# Dependências
+/vendor/
+composer.lock
+
+# Pastas de runtime
+/writable/
+/tests/_output/
+
+# Cache e logs
+*.log
+
+# Frontend (caso use)
+/node_modules/
+/dist/
+/build/
+
+# IDEs e editores
+.vscode/
+.idea/
+*.sublime-*
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
